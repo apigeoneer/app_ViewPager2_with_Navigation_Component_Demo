@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
         android:fontFamily="@font/amita"
-        android:text="Sunderbans"
+        android:text="National Park "
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
