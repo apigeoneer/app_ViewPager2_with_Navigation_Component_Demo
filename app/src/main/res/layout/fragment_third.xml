@@ -4,38 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f4ddcb"
-    tools:context=".onboarding.screens.FirstFragment">
+    android:background="#F4DDCD"
+    tools:context=".onboarding.screens.ThirdFragment">
 
     <ImageView
-        android:id="@+id/screen1_iv"
+        android:id="@+id/screen3_iv"
         android:layout_width="0dp"
         android:layout_height="400dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/screen1"
+        android:src="@drawable/screen3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/screen1_tv"
+        android:id="@+id/screen3_tv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
         android:fontFamily="@font/amita"
         android:gravity="center"
-        android:text="Kho jaiye yahan ki haseen vadiyon me."
+        android:text="Duniya ke rahasyon ko samajhne nikal pariye ek anokhe safar par."
         android:textColor="#212121"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/screen1_iv"
+        app:layout_constraintTop_toBottomOf="@+id/screen3_iv"
         app:lineHeight="40dp" />
 
     <Button
-        android:id="@+id/screen1_btn"
+        android:id="@+id/screen3_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
@@ -47,4 +47,5 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
