@@ -22,7 +22,7 @@ class SecondScreen : Fragment() {
         val viewPager = activity?.findViewById<ViewPager2>(R.id.view_pager)
 
         view.next2_btn.setOnClickListener {
-            viewPager?.currentItem = 2                     // 0-indexing, 1 is actually the 2nd screen
+            viewPager?.currentItem = 2                     // 0-indexing, 2 is actually the 3rd screen
         }
 
         return view
