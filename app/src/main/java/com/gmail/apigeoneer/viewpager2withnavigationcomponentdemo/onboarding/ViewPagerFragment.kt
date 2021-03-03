@@ -37,7 +37,8 @@ class ViewPagerFragment : Fragment() {
                 lifecycle
         )
 
-        view.view_pager.adapter = adapter // Synthetic view references have been deprecated and will not be supported in the future. *NEED TO USE DATA BINDING*
+        // Make sure you have the 'kotlin-android-extensions' plugin added to the app.gradle file
+        view.view_pager.adapter = adapter // Depreciated Synthetic view references won't be a problem. Data binding not mandatory.
 
         return view
     }
