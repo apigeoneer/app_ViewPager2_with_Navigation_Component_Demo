@@ -1,14 +1,18 @@
 package com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.onboarding
 
+import android.R.attr.data
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.R
+import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
+import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.databinding.FragmentViewPagerBinding
 import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.onboarding.screens.FirstFragment
 import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.onboarding.screens.SecondFragment
 import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.onboarding.screens.ThirdFragment
+
+
 //import kotlinx.android.synthetic.main.fragment_view_pager.view.*
 
 /**
@@ -16,7 +20,8 @@ import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.onboarding.scr
  */
 class ViewPagerFragment : Fragment() {
 
-   // private lateinit var viewPager: ViewPager
+    // data binding
+    private lateinit var binding: FragmentViewPagerBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -40,7 +45,7 @@ class ViewPagerFragment : Fragment() {
                 lifecycle
         )
 
-        view.viewPager.adapter = adapter // Synthetic view references have been deprecated and will not be supported in the future. *NEED TO USE DATA BINDING*
+      //  view.viewPager.adapter = adapter // Synthetic view references have been deprecated and will not be supported in the future. *NEED TO USE DATA BINDING*
 
         return view
     }
