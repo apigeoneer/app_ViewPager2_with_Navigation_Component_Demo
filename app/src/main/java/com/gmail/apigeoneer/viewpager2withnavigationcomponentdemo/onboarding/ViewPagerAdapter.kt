@@ -5,6 +5,10 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
+/**
+ * The ViewPagerAdapter helps you connect your Fragment instances with the ViewPager.
+ * It will create each Fragment, add the corresponding Fragment data to it and return it to the ViewPager.
+ */
 class ViewPagerAdapter(
     list: ArrayList<Fragment>,
     fm: FragmentManager,
