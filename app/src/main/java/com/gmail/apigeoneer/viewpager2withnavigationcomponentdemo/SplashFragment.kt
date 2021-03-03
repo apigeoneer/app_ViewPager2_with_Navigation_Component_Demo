@@ -21,7 +21,11 @@ class SplashFragment : Fragment() {
          * Make sure you 've added the ViewPagerFragment to the nav graph & have connected the SplashFragment to it
          */
         Handler().postDelayed({
-            findNavController().navigate(R.id.action_splashFragment_to_viewPagerFragment)
+            if (onBoardingFinished()) {
+                findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
+            } else {
+                findNavController().navigate(R.id.action_splashFragment_to_viewPagerFragment)
+            }
         }, 2000)
 
         // Inflate the layout for this fragment
