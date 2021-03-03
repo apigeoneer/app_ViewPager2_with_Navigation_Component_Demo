@@ -43,7 +43,7 @@
         android:background="#03FFFFFF"
         android:text="Next"
         android:textColor="#22498E"
-        android:textSize="28sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
