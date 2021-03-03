@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.gmail.apigeoneer.viewpager2withnavigationcomponentdemo.R
 
-class ThirdFragment : Fragment() {
+class ThirdScreen : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
