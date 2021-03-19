@@ -16,9 +16,9 @@
 
 - **Nav Graph :**
 
-    NavGraph is a collection of **`[NavDestination](https://developer.android.com/reference/androidx/navigation/NavDestination)`** nodes fetchable by ID.
+    NavGraph is a collection of [NavDestination](https://developer.android.com/reference/androidx/navigation/NavDestination) nodes fetchable by ID.
 
-    A NavGraph serves as a 'virtual' destination: while the NavGraph itself will not appear on the back stack, navigating to the NavGraph will cause the **`[starting destination](https://developer.android.com/reference/androidx/navigation/NavGraph#getStartDestination())`** to be added to the back stack.
+    A NavGraph serves as a 'virtual' destination: while the NavGraph itself will not appear on the back stack, navigating to the NavGraph will cause the [starting destination](https://developer.android.com/reference/androidx/navigation/NavGraph#getStartDestination()) to be added to the back stack.
 
 - **View Pager :**
 
@@ -77,7 +77,7 @@
 
 ### 6. Implement the ViewPagerFragment logic
 
-- ViewPagerF  →
+- ViewPagerF
 
 ### 7. Fixing the error w/ setting the view_pager adapter value
 
