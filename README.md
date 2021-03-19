@@ -26,8 +26,6 @@
 
     You supply an implementation of a Pager Adapter to generate the pages that the view shows.
 
-- **Navigation Backstack :**
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## STEPS
