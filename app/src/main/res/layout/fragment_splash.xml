@@ -12,24 +12,14 @@
         android:id="@+id/splash_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
         android:fontFamily="@font/amita"
-        android:text="Sunderbans"
+        android:text="Safarnama"
+        android:textColor="#323232"
         android:textSize="40sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/splash_iv"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginBottom="150dp"
-        android:src="@drawable/tigress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/splash_tv" />
 </androidx.constraintlayout.widget.ConstraintLayout>
