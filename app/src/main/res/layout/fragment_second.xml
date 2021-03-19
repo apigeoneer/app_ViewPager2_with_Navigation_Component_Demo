@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f4ddcb"
-    tools:context=".onboarding.screens.SecondFragment">
+    tools:context=".onboarding.screens.SecondScreen">
 
     <ImageView
         android:id="@+id/screen2_iv"
@@ -22,12 +22,12 @@
         android:id="@+id/screen2_tv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
         android:fontFamily="@font/amita"
         android:gravity="center"
-        android:text="Sign boards ko rakhe side me aur apne raste khud banayeh."
-        android:textColor="#212121"
+        android:text="Sign boards bhul jayen, apne raste khud tarashen."
+        android:textColor="#424242"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,15 +35,15 @@
         app:lineHeight="40dp" />
 
     <Button
-        android:id="@+id/screen2_btn"
+        android:id="@+id/next2_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="64dp"
         android:background="#03FFFFFF"
         android:text="Next"
-        android:textColor="#3F51B5"
-        android:textSize="16sp"
+        android:textColor="#22498E"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
