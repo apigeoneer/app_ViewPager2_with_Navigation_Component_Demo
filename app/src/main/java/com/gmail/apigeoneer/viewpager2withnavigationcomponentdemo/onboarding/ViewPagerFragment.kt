@@ -40,7 +40,7 @@ class ViewPagerFragment : Fragment() {
                 lifecycle
         )
 
-        view.viewPager.adapter = adapter
+        view.viewPager.adapter = adapter // Synthetic view references have been deprecated and will not be supported in the future. *NEED TO USE DATA BINDING*
 
         return view
     }
