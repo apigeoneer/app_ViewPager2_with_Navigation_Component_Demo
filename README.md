@@ -1,5 +1,8 @@
 # ViewPager2 with Navigation Component Demo app
 
+## SCREENSHOTS
+
+
 ## CONCEPTS
 
 - **Onboarding Screens (/walkthroughs):**
