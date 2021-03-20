@@ -111,6 +111,8 @@
 - ViewPagerF  → Navigate to HomeFragment
 - ThirdScreen fragment → Use a SharedPreferences Object to save onboarding finished value: T/F
 - nav graph → connect the SplashF  w/ the HomeF
+  <img src="https://user-images.githubusercontent.com/43718257/111862630-7b267500-897c-11eb-9240-24d52171a591.png" width=250 height=300>
+
 - SplashF → Use a SharedPreferences Object to check if onboarding is finished
 
 ### 11. Fix Navigation Backstack
